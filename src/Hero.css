@@ -1,0 +1,27 @@
+.rating-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.rating-label{
+    font-weight: 600;
+    color:  white;
+}
+
+.rating-number{
+    font-weight: bold;
+}
+
+.stars{
+    color: #FFC107;
+    font-size: 20px;
+}
+
+.reviews{
+    opacity: 0.9;
+}
