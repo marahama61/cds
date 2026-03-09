@@ -35,7 +35,7 @@ function Hero() {
           variant="h3"
           sx={{ color: "white", fontWeight: "bold", mb: 4 }}
         >
-          Find the Best Driving Instructor Near You
+          Find me the Best Driving Instructor Near You
         </Typography>
 
         <div className="rating-box">
