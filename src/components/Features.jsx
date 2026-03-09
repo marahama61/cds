@@ -34,7 +34,7 @@ function Features() {
   ];
 
   return (
-    <Box sx={{ py: 10, px: 3, background: "#f8fafc" }}>
+    <Box sx={{ py: 10, px: 3, background: "#d1d9e0" }}>
 
       <Typography
         variant="h4"

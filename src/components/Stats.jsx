@@ -2,7 +2,7 @@ import { Box, Grid, Typography } from "@mui/material";
 
 function Stats() {
   return (
-    <Box sx={{ py: 8, backgroundColor: "#f5f5f5" }}>
+    <Box sx={{ py: 8, backgroundColor: "#f4eded" }}>
       <Grid container spacing={4} justifyContent="center">
 
         <Grid item xs={12} md={3} textAlign="center">

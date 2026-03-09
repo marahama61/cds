@@ -1,13 +1,14 @@
 import { Box, Typography, TextField, Button, MenuItem } from "@mui/material";
 import "../Hero.css"
+import driving from "../assets/driving.jpg"
 
 function Hero() {
   return (
-    <Box
+    <Box 
       sx={{
         position: "relative",
         height: "300px",
-        backgroundImage: 'url("/assets/driving.jpg")',
+        backgroundImage: `url(${driving})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
@@ -22,7 +23,7 @@ function Hero() {
         sx={{
           position: "absolute",
           inset: 0,
-          background: "rgba(0,0,0,0.45)",
+          background: "rgba(0,0,0,0.50)", 
           zIndex: 1
         }}
       />
